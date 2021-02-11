@@ -13,7 +13,7 @@
                 <img src="{{ asset('img/logo.png') }}" alt="Logo Molisana">
             </div>
             <nav>
-                <a href="/">HOME</a>
+                <a href="/" class="active">HOME</a>
                 <a href="prodotti">PRODOTTI</a>
                 <a href="contatti">CONTATTI</a>
             </nav>
@@ -21,5 +21,6 @@
         
         @yield('content')
 
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

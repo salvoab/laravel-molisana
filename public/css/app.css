@@ -36,6 +36,11 @@ header nav a:hover {
   color: #002d75;
 }
 
+header nav a.active {
+  color: #002d75;
+  border-bottom: 4px solid #002d75;
+}
+
 .prodotti {
   background-image: url("/img/fondo-pag-speciali.jpg");
 }

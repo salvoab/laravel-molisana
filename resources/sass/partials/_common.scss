@@ -34,5 +34,10 @@ header{
                 color: $link_active_color;
             }
         }
+
+        a.active{
+            color: $link_active_color;
+            border-bottom: 4px solid $link_active_color;
+        }
     }
 }

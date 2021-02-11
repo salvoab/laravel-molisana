@@ -19379,6 +19379,19 @@ module.exports = function(module) {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
+console.log('test', window.location.pathname); //Rimuovo la classe active dal link precedentemente attivo
+
+document.querySelector('a.active').classList.remove('active');
+var pathname = window.location.pathname;
+
+if (pathname == '/') {
+  document.querySelector('a[href="/"]').classList.add('active');
+} else if (pathname == '/prodotti') {
+  document.querySelector('a[href="prodotti"]').classList.add('active');
+} else {
+  document.querySelector('a[href="contatti"]').classList.add('active');
+}
+
 /***/ }),
 
 /***/ "./resources/js/bootstrap.js":
