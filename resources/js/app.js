@@ -1,7 +1,5 @@
 require('./bootstrap');
 
-console.log('test', window.location.pathname);
-
 //Rimuovo la classe active dal link precedentemente attivo
 document.querySelector('a.active').classList.remove('active');
 

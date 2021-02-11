@@ -19377,9 +19377,8 @@ module.exports = function(module) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js"); //Rimuovo la classe active dal link precedentemente attivo
 
-console.log('test', window.location.pathname); //Rimuovo la classe active dal link precedentemente attivo
 
 document.querySelector('a.active').classList.remove('active');
 var pathname = window.location.pathname;
