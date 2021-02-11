@@ -67,6 +67,7 @@ header nav a.active {
 
 .prodotti .container .pasta img.pasta-img {
   width: 100%;
+  transition: transform 0.4s linear;
 }
 
 .prodotti .container .pasta .overlay {
