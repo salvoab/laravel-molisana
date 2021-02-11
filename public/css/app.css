@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #002d75;
+}
+
+header .logo-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+  padding: 18px;
+  background-color: #b1d281;
+}
+
+header nav a {
+  padding: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #002d75;
+}
+

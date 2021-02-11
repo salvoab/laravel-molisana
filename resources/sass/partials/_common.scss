@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2{
+    text-align: center;
+    color: $title_color;
+}
+
+header{
+    .logo-wrapper{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav{
+        display: flex;
+        justify-content: center;
+        font-size: 22px;
+        padding: 18px;
+        background-color: $nav_bg;
+
+        a{
+            padding: 0 10px;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: white;
+            font-weight: bold;
+
+            &:hover{
+                color: $link_active_color;
+            }
+        }
+    }
+}
