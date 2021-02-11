@@ -32,6 +32,10 @@
                 top: 0;
                 left: 0;
 
+                h3{
+                    text-align: center;
+                }
+
                 img.icon{
                     width: 80px;
                 }
@@ -46,6 +50,23 @@
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .prodotti{
+        .container{
+            .pasta{
+                width: calc(100% / 2 - 60px);
+                margin: 20px;
+
+                .overlay{
+                    img.icon{
+                        width: 50px;
+                    }
+                }
             }
         }
     }

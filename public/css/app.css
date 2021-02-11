@@ -79,6 +79,10 @@ header nav a.active {
   left: 0;
 }
 
+.prodotti .container .pasta .overlay h3 {
+  text-align: center;
+}
+
 .prodotti .container .pasta .overlay img.icon {
   width: 80px;
 }
@@ -92,5 +96,16 @@ header nav a.active {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .prodotti .container .pasta {
+    width: calc(100% / 2 - 60px);
+    margin: 20px;
+  }
+
+  .prodotti .container .pasta .overlay img.icon {
+    width: 50px;
+  }
 }
 
