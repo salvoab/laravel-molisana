@@ -21,6 +21,55 @@
         
         @yield('content')
 
-        <script src="{{ asset('js/app.js') }}"></script>
+        <footer>
+            <div class="container">
+                <div class="footer-logo col">
+                    <img src="{{asset('img/logo.png') }}" alt="Logo Molisana">
+                </div>
+                <div class="col">
+                    <h3>PASTIFICIO</h3>
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                    <h3>PRODOTTI</h3>
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <h3>COLLEZIONE DA CHEF</h3>
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                    <h3>NEWS</h3>
+                    <ul>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="info">
+                        <li> <strong>RAGIONE SOCIALE:</strong> LA MOLISANA S.P.A.</li>
+                        <li> <strong>SEDE LEGALE:</strong> CONTRADA DELLE API</li>
+                        <li> <strong>PEC:</strong> LAMOLISANA@PEC.IT</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
