@@ -7,15 +7,15 @@
 @section('content')
     
     @php
-        $paste_lunghe = Arr::where($paste, function($pasta, $chiave) {
+        $paste_lunghe = Arr::where($paste, function($pasta) {
             return $pasta->tipo == 'lunga';
         });
 
-        $paste_corte = Arr::where($paste, function($pasta, $chiave) {
+        $paste_corte = Arr::where($paste, function($pasta) {
             return $pasta->tipo == 'corta';
         });
 
-        $paste_cortissime = Arr::where($paste, function($pasta, $chiave) {
+        $paste_cortissime = Arr::where($paste, function($pasta) {
             return $pasta->tipo == 'cortissima';
         });
     @endphp
