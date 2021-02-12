@@ -74,13 +74,21 @@ header nav a.active {
   width: 100%;
   height: 100%;
   display: none;
+  text-align: center;
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.prodotti .container .pasta .overlay h3 {
-  text-align: center;
+.prodotti .container .pasta .overlay a {
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+}
+
+.prodotti .container .pasta .overlay a:hover {
+  color: #002d75;
+  text-decoration: underline;
 }
 
 .prodotti .container .pasta .overlay img.icon {

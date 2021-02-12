@@ -28,12 +28,20 @@
                 width: 100%;
                 height: 100%;
                 display: none;
+                text-align: center;
                 position: absolute;
                 top: 0;
                 left: 0;
 
-                h3{
-                    text-align: center;
+                a{
+                    text-decoration: none;
+                    font-size: 18px;
+                    color: black;
+
+                    &:hover{
+                        color: $link_active_color;
+                        text-decoration: underline;
+                    }
                 }
 
                 img.icon{
