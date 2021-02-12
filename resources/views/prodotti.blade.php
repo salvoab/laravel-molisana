@@ -18,11 +18,22 @@
         $paste_cortissime = Arr::where($paste, function($pasta) {
             return $pasta->tipo == 'cortissima';
         });
+
+        $tipi_di_pasta = ["LE LUNGHE" => $paste_lunghe, "LE CORTE" => $paste_corte, "LE CORTISSIME" => $paste_cortissime];
+        
     @endphp
 
     <div class="prodotti">
-        @include('partials.paste_lunghe')
-        @include('partials.paste_corte')
-        @include('partials.paste_cortissime')
+        @foreach($tipi_di_pasta as $chiave => $tipo)
+            <section>
+                <h2>{{ $chiave }}</h2>
+                <div class="container">
+                    @foreach($tipo as $indice => $pasta)
+                        @include('partials.pasta')
+                    @endforeach
+                </div>
+            </section>
+        @endforeach
     </div>
+    
 @endsection
