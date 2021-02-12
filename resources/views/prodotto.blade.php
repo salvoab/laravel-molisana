@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Prodotto
+    {{ $pasta->titolo }}
 @endsection
 
 @section('content')
