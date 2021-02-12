@@ -27,5 +27,7 @@ Route::get('contatti', function () {
 })->name('contatti');
 
 Route::get('prodotti/{id}', function($id){
-    return view('prodotto');
+    $paste = json_decode( config('dati.pasta') );
+    $pasta = $paste[$id];
+    return view('prodotto', compact('pasta'));
 })->name('prodotto');

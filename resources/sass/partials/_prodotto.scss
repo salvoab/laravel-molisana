@@ -1,0 +1,42 @@
+.singolo-prodotto{
+    background-image: url("/img/fondo-pag-speciali.jpg");
+
+    h2{
+        padding: 20px 0;
+        font-size: xx-large;
+        text-align: center;
+        color: black;
+        text-shadow: 1px 1px white;
+    }
+    .container {
+        width: 75%;
+        margin: auto;
+    }
+
+    .descrizione, p.cottura{
+        background-color: #b7d9e3;
+        border-radius: 5px;
+    }
+
+    .descrizione{
+        padding: 40px;
+
+        ol{
+            margin: 1.2rem;
+
+            li{
+                margin: 5px 2rem;
+            }
+        }
+    }
+    
+    p.cottura{
+        padding: 20px 10px;
+        text-align: center;
+        line-height: 25px;
+    }
+
+    .img-wrapper{
+        text-align: center;
+    }
+}

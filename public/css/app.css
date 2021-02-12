@@ -109,3 +109,48 @@ header nav a.active {
   }
 }
 
+.singolo-prodotto {
+  background-image: url("/img/fondo-pag-speciali.jpg");
+}
+
+.singolo-prodotto h2 {
+  padding: 20px 0;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+.singolo-prodotto .container {
+  width: 75%;
+  margin: auto;
+}
+
+.singolo-prodotto .descrizione,
+.singolo-prodotto p.cottura {
+  background-color: #b7d9e3;
+  border-radius: 5px;
+}
+
+.singolo-prodotto .descrizione {
+  padding: 40px;
+}
+
+.singolo-prodotto .descrizione ol {
+  margin: 1.2rem;
+}
+
+.singolo-prodotto .descrizione ol li {
+  margin: 5px 2rem;
+}
+
+.singolo-prodotto p.cottura {
+  padding: 20px 10px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.singolo-prodotto .img-wrapper {
+  text-align: center;
+}
+
